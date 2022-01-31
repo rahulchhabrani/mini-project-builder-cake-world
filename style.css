@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Fill your code*/
+
+.logo {
+    position: absolute;
+    background-color: black;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 150px / 100px;
+    width: 275px;
+    margin: auto;
+    margin-left: 550px;
+    margin-right: auto;
+    z-index: 2;
+    border: solid rgb(68, 31, 7);
+}
+
+.logo>img {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.logo>p {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+
+#layer1 {
+    width: 245px;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#layer2 {
+    width: 200px;
+    left: 40px;
+    height: 30px;
+    background-color: rgb(247, 247, 110);
+    border-radius: 10px;
+}
+
+#layer3 {
+    width: 160px;
+    height: 30px;
+    left: 60px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+#layer4 {
+    width: 120px;
+    left: 80px;
+    height: 30px;
+    background-color: rgb(255, 136, 249);
+    border-radius: 10px;
+}
+
+#layer5 {
+    width: 80px;
+    left: 100px;
+    height: 30px;
+    background-color: rgb(253, 100, 44);
+    border-radius: 10px;
+}
+
+.menu {
+    position: absolute;
+    margin: 10px;
+    /*bottom: 0%;
+    right: 30%;*/
+    z-index: 2;
+    align-self: center;
+    border-bottom: 1px solid grey;
+}
+
+.menu2 {
+    position: absolute;
+    /*bottom: 0%;*/
+    right: 20%;
+    z-index: 2;
+    border-bottom: 1px solid grey;
+    margin: 10px;
+    align-self: center;
+}
+
+.menu-container2 {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 80px;
+    align-self: center;
+    /*top: 50%;
+    left: 40%;
+    transform: translate);*/
+}
+
+.menu-container2>p {
+    width: 350px;
+    color: white;
+}
+
+.menu-container2>div {
+    width: 350px;
+    color: white;
+}
+
+.menu2>img {
+    margin-top: 150px;
+    position: absolute;
+    z-index: -1;
+}
+
+.menu-container2 h3 {
+    line-height: 2;
+    font-size: 25px;
+    color: white;
+}
+
+.menu-container2 p {
+    line-height: 1.5;
+}
+
+.menu-container2 div {
+    line-height: 1.5;
+}
+
+.menu-container {
+    position: absolute;
+    /*top: 50%;
+    left: 40%;
+    transform: translate);*/
+    margin-top: 180px;
+    margin-left: 80px;
+}
+
+.menu-container>p {
+    width: 350px;
+}
+
+.menu>img {
+    margin-top: 150px;
+    position: absolute;
+    z-index: -1;
+}
+
+.cake img {
+    height: 10vh;
+    padding: 0;
+    position: relative;
+    top: 20px;
+}
+
+.header {
+    position: relative;
+    background-color: rgb(68, 31, 7);
+    padding: 20px;
+    z-index: 1;
+    height: 75px;
+    font-family: 'Acme', sans-serif;
+}
+
+.footer {
+    position: relative;
+    background-color: rgb(68, 31, 7);
+}
+
+.menu-container h3 {
+    line-height: 2;
+    font-size: 25px;
+    color: white;
+}
+
+.menu-container p {
+    line-height: 1.5;
+    color: white;
+}
+
+.cake {
+    position: absolute;
+    bottom: 12%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 200px;
+}
+
+.footers {
+    position: absolute;
+    top: 750px;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    background-color: rgb(68, 31, 7);
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 112px;
+    height: 45px;
+    border: solid 1px #e4e4e4;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    border-radius: 5px;
+    color: white;
+}
+
+.button:active {
+    background-color: #ca58ff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button.active {
+    width: 112px;
+    height: 58px;
+    background-color: #d858ff;
+    line-height: 58px;
+    text-align: center;
+}
+
+.button:active2 {
+    background-color: #62f826;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button.active2 {
+    width: 112px;
+    height: 58px;
+    background-color: #62f826;
+    line-height: 58px;
+    text-align: center;
+    color: black;
+}
+
+.footer {
+    position: relative;
+    background-color: rgb(68, 31, 7);
+    padding: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+.Rectangle1 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #ca58ff;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.btn-buy {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #4eff3d;
+}
